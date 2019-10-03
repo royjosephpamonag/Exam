@@ -1,0 +1,355 @@
+/*
+Theme Name: Dreamscape Theme
+Theme URI: http://mytheme.com
+Author: Dreamscape
+Author URI: http://mytheme.com
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dreamscapetheme
+
+*/
+h1,h2{font-family: 'Poppins', sans-serif; font-size: 45px; text-transform: capitalize; font-weight: bold; margin-bottom: 20px; color: #545454;}
+h2{font-size:20px; margin-bottom: 26px}
+h3{font-family: 'Poppins', sans-serif; font-size: 20px; text-transform: capitalize; margin-top: 30px; font-weight: 300; color: #545454;	}
+
+header {
+    background-color: #212121 !important;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* padding-left: 0; */
+    /* margin-bottom: 0; */
+    list-style: none;
+    margin: 0 auto;
+}
+.header-button {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #ff6b6c;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+.header-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+li.phone {
+    border-right: solid 1px #fff;
+}
+.navbar-nav.mr-auto li {
+    padding: 0 10px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-nav {
+    background-color: #212121 !important;
+}
+/* Header style ends */
+
+/* Slider Section */
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    top: 35%;
+}
+
+.content-slider h1{
+	color: #fff;
+}
+.btn-slider{
+    background-color: #ff6b6c;
+    padding: 15px 30px;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: border-box;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+/* SLider style Ends */
+
+/* Feaute style section */
+.text-center{text-align: center;}
+.content-text {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: #9b9b9b;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.features {
+    padding: 100px 0;
+}
+.btn-feature{
+    background-color: #ff6b6c;
+    padding: 15px 30px;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-body {
+    text-align: center;
+    padding: 0;
+}
+/* Feature style ends */
+
+.best-tours {
+    padding: 100px 0;
+}
+.best-tours {
+    background-image: url(images/service-bg.jpg);
+    background-size: cover;
+}
+.tour-text {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.tours-content {
+    color: #fff;
+}
+.btn-tours{
+	background-color: #ff6b6c;
+    padding: 15px 30px;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+}
+button.btn-tours {
+    margin-top: 25px;
+}
+/* Tours style ends */
+
+.why-us {
+    padding: 100px 0;
+}
+.why-us-title {
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.why-us-images {
+    text-align: center;
+}
+.why-us-images .why-us-img {
+    width: auto;
+}
+.title-us {
+    font-weight: 600;
+    font-size: 24px;
+}
+/* WHy us ends */
+
+.partners {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+.partners-images {
+    text-align: center;
+    margin-top: 50px;
+}
+.partners-img {
+    width: auto;
+}
+/* partners section ends */
+
+.test-img {
+    width: auto;
+    float: left;
+    margin-right: 15px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff6b6c;
+    border-color: #ff6b6c;
+}
+.testimonials-title{
+	font-weight: 600;
+}
+.testimonials {
+    padding: 100px 0;
+}
+.test-content p {
+    text-align: left;
+    padding-left: 100px;
+}
+.btn-testimonial {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-section {
+    background-color: #212121;
+    padding: 10px 0;
+}
+.social-media li {
+    width: 30px;
+    height: 30px;
+    background-color: #2e2e2e;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+    box-sizing: content-box;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.social-media i {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+.footer-social {
+    margin-top: -5px;
+}
+.social-media ul {
+    margin-bottom: 0;
+    float: right;
+}
+.modal-header {
+    border: none;
+}
+.modal-footer {
+    border: none;
+}
+.btn-form{
+    background-color: #ff6b6c;
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+}
+
+.modal-dialog {
+    top: 20%;
+}
+.modal-footer {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.modal-header {
+    background-color: #212121;
+}
+.modal-header h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.close-btn {
+    color: #fff;
+}
+button.close {
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 0;
+    line-height: 0;
+    margin: -2rem -2rem -1rem auto !important;
+
+}
+.close{
+    opacity: 1;
+}
+.close:hover{
+    opacity: 1 !important;
+}
+.modal-header .close {
+    padding: 10px 0;
+
+}
+
+
+
+
+@media(max-width: 979px){
+	.navbar-nav.mr-auto {
+    text-align: center;
+	}
+	.navbar-nav.mr-auto li {
+    padding: 10px;
+	}
+	li.phone {
+    border-right: none
+	}
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+	}
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff !important;
+	}
+	.row {
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card-img-top {
+    width: auto;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+}
